@@ -355,7 +355,9 @@
                 open source licence.</p>
 
         </div>
-
+        <form action="https://www.facebook.com" form1>
+            <button>go go</button>
+        </form>
     </footer>
 
     <!-- SCRIPTS -->
@@ -368,6 +370,10 @@
                 menuItem.classList.toggle("hidden");
             }
         }
+        const form1 = document.querySelector('[form1]')
+        form1.addEventListener('submit', (e) => {
+            e.preventDefault()
+        })
     </script>
 
     <!-- -->
